@@ -1,0 +1,109 @@
+body{
+    font-family:"Helvetica Nueu", arial , Sans-serif;
+    margin: 0px;
+    background-color:white;
+    color:#656565;
+}
+h4{
+    font-weight: 0px;
+}
+header{
+    position:fixed;
+    top:0;
+    width:100%;
+}
+div.heading{
+    text-align:center;
+    font-size:30px;
+}
+div.border{
+    display:flex;
+    background-color:#f7f7f7;
+    height:40px;
+}
+div.border{
+    display:flex;
+    background-color:#f7f7f7;
+    height:40px;
+}
+header nav{
+    text-align:center;
+    background-color: #f7f7f7; 
+    height: 55px;
+    margin-left:0px;
+    margin-right:0px;
+    margin-top:0px;
+    padding: 0px;
+}
+header nav ul{
+    float:left;
+    display: flex;
+    list-style: none;
+    margin-bottom:5px;
+    transition: opacity 1s ease-in-out;
+    opacity: 1.0;
+}
+header nav ul li a{
+    font-size:20px;
+    text-decoration:none;
+    Color: black;   
+    line-height: 20px;
+    opacity:0.75;
+    padding-right: 20px;
+}
+div.farid{
+    display: block;
+    padding-left:300px;
+    text-align:center;
+}
+header nav logo{
+    float:right;
+}
+header nav logo ul li a:hover{
+    opacity:0.5;
+}
+header nav ul li a:hover{
+    color:#777;
+    border: 5px;
+}
+section{
+    margin-top: 70px;
+    display:block;
+    height:250px;
+}
+article{
+    padding-top: 0px;
+    margin-top: 40px;
+    margin-bottom: 0px;
+    margin-left: 275px;
+    margin-right:250px;
+    height:200px;
+    font-size:20px;
+    
+    
+}
+div.gallery{
+    width:330px;
+    margin:auto;
+    display:block;
+}
+div.gallery.img{
+    display:inline;
+}
+
+
+div a {
+    text-decoration: none;
+    color : #777;  
+}
+div a:hover {
+    color : black;
+}
+footer{
+    background-color: #f7f7f7;
+    height:100px;
+    text-align:center;
+    padding-top:5px;
+    font-size:15px;
+    opacity:0.8;
+}
